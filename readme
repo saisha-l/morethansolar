@@ -1,0 +1,12 @@
+    var uvLabel = $('#uvLabel');
+      if (uviValueR < 10){
+        uvLabel.removeClass("uvicss");
+        uvLabel.toggleClass('uvicss1');
+        console.log("less!!!")
+      };
+
+
+
+
+https://pubs.rsc.org/en/content/articlehtml/2018/pp/c7pp00374a 
+https://ugeskriftet.dk/files/scientific_article_files/2018-11/b4153.pdf

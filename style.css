@@ -1,0 +1,298 @@
+body {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+
+html{
+  
+}
+.inputt{
+  transition-property: all;
+}
+body{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.header{
+  display: flex;
+  align-content: center;
+  position: fixed; 
+  background: #FFF8E7; 
+  margin-bottom: 30px;
+  top: 0;
+  left: 0;
+width: 110%;
+}
+
+.navb{
+  background: #FFF8E7;
+  margin-top: 30px;
+  font-family: 'Nova Round', cursive;
+  border: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  height: 50px;
+}
+
+*{
+  object-fit: fill;
+}
+.logo{
+  margin-left: 20px;
+  height: 150px;
+}
+.newdiv{
+  margin: 10px;
+  background: #F4EDE2;
+  border-radius: 30px;
+  padding: 10px;
+  height: 450px;
+  box-shadow: 10px 10px 5px #DDD7CE;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  line-height: 10px;
+  line-height-step: 10px;
+    color: #442B2B
+
+
+}
+.invisible{
+  visibility: hidden;
+  transition-delay: 150ms;
+  transition-property: all;
+}
+.visible{
+  visibility: visible;
+
+}
+body{
+font-family: 'Manrope', sans-serif;
+
+}
+h1{
+  font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+
+}
+.CityUV{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.div1{
+  display: flex; 
+  justify-content: center;
+}
+
+p{
+}
+
+.input{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 150px; 
+}
+
+.inputValue{
+  margin-left: 20px;
+  height: 50px;
+  background: #e9e5c4;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  border: none; 
+  border-radius: 2px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.submitbtn{
+ margin-right: 40px;
+padding-right: 10px;
+ height: 50px;
+width: 100px; 
+background: #E9DE7B;
+font-family: 'Manrope', sans-serif;
+font-size: 20px;
+border: none; 
+  border-radius: 2px;
+  color: #442B2B
+
+}
+
+.submitbtn:active{
+  background: #b8b065;
+
+  
+}
+
+.name{
+  color: #291919;
+  margin-top: -5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 50px; 
+  font-family: 'Playfair Display', serif;
+}
+
+.temp{
+  font-size: 5px;
+font-family: 'Manrope', sans-serif;
+  color: #042876;
+  margin-bottom: -10px;
+    margin-top: 0px;
+
+}
+
+.coord{
+    margin: 0px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.addBtn{
+  border-radius: 1000px;
+  border: 0px;
+  width: 50px;
+  height: 50px; 
+  color: #442B2B;
+  background: #E9DE7B;
+  font-size: 30px;
+}
+.addBtn:hover{
+  border: 3px solid #442B2B;
+}
+
+.uvicss{
+  font-family: 'Playfair Display', serif;
+  font-size: 250px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 50px;
+  line-height-step: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #5f4949
+}
+
+.uvicss1{
+  font-family: 'Playfair Display', serif;
+  font-size: 250px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 50px;
+  line-height-step: 10px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  color: #5f4949
+}
+
+
+.uvheading{
+  font-family: 'Nova Round', cursive;
+font-size: 50px;
+  margin: 0px;
+    margin-top: -30px;
+  color: #442B2B
+}
+
+.indexheading{
+  font-family: 'Nova Round', cursive;
+font-size: 20px;
+    margin: 0px;
+    margin-top: 5px;
+  color: #442B2B
+
+}
+.line{
+  margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.infobtn{
+padding: 10px;
+ margin-left: 0px;
+background: #E9DE7B;
+font-family: 'Manrope', sans-serif;
+font-size: 20px;
+border: none; 
+  border-radius: 2px;
+  color: #442B2B
+  
+}
+.infobtn:active{
+  background: #b8b065;
+
+  
+}
+
+.infoFitz{
+  visibility: hidden;
+}
+.bigger{
+  margin-top: 10px;
+  visibility: visible;
+  width: 100%; 
+  background: #FFF8E7;
+  border: 2px solid #E9DE7B;
+  padding: 10px;
+    margin-right: 30px;
+  margin-bottom: 30px;
+  
+}
+img{
+  object-fit: contain;
+}
+
+.numinput{
+  width: 70px;
+  height: 50px;
+  background: #e9e5c4;
+font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  border: none; 
+  border-radius: 2px;
+  padding: 5px;
+  margin-left: 20px;
+
+}
+
+.column{
+  display: flex;
+}
+
+.everyFitzThing{
+  margin-left: 50px;
+}
+
+.smalltext{
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+   margin-top: 130px; 
+}
+.fstInput{
+  width: 70px;
+  height: 50px;
+  background: #e9e5c4;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  border: none; 
+  border-radius: 2px;
+  padding: 5px;
+  text-align: center;
+}
